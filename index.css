@@ -1,0 +1,74 @@
+.own{
+    height: 500px;
+    
+}
+.card{
+    background: linear-gradient(to right, #d2b48c, #53615C);
+     position: relative;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   /* background-color: #fff; */
+   background-clip: border-box;
+   border: 1px solid rgba(0, 0, 0, .125);
+   border-radius: .25rem;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   margin-top: 5%;
+}
+.card-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+ 
+}
+.image-container {
+    width: 90%; /* Set the width of the div */
+    height: 150px; /* Set the height of the div */
+    /* Optional: Add a border for visualization */
+    margin: 10px; /* Optional: Add margin for spacing */
+    overflow: hidden; /* Optional: Hide overflow content */
+} 
+.row{
+    margin-top: 50px;
+    background-color: rgb(27, 66, 67);
+    border: none;
+}
+.col{
+    border: none;
+}
+.card-text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.image-container img {
+    width: 100%; /* Make the image fill the container horizontally */
+    height: 100%; /* Make the image fill the container vertically */
+    object-fit: cover; /* Optional: Scale the image while maintaining its aspect ratio */
+  }
+
+ .border{
+    border: 1px solid black;
+ }
+.cardtext{
+    font-style: italic;
+    text-align: center;
+    padding-left:0.5%;
+    padding-right:0.5%;
+
+}
+.foot{
+    background-color: rgba(255, 255, 255, 0.292);
+    color: white;
+    
+}
